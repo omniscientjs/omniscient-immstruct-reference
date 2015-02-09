@@ -6,6 +6,8 @@ In this case, the `<Clock />` component will re-render each second with new data
 
 Often, passing props from parent components is the desired way to hand off data to child components, but when a component always depend on the same data the [immstruct references](http://github.com/omniscientjs/immstruct/#references) come in handy.
 
+[Demo](https://omniscientjs.github.io/omniscient-immstruct-reference)
+
 ## Run
 
 `npm run watch`
