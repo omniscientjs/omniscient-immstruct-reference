@@ -1,6 +1,6 @@
 # omniscient immstruct reference
 
-This repo shows how to use immstruct references for components that bind directly to a piece of data in a larger structure, without the parent components needing to pass all the information as cursors down from the top of the component tree.
+This repo shows how to use immstruct references for components that bind directly to a piece of data in a larger structure, without the parent components needing to pass all the information as cursors as props down from the top of the component tree.
 
 In this case, the `<Clock />` component will re-render each second with new data as the structure is updated, even if the clock is not passed its data through props.
 
